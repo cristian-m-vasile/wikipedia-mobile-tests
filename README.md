@@ -8,10 +8,12 @@ _**Note:** currently it supports only Android system run on emulator._
 
 ### Requirements
 * [rvm](https://rvm.io/rvm/install)
-* Android SDK (for Android 4.2+)
+* Android SDK >=25.0.2
 * gradle
+* apk from the official Wikipedia repo: https://github.com/wikimedia/apps-android-wikipedia
 
 ### Installation
+On macOS:
 * node: ```brew install node```
 * ant: ```brew install ant```
 * appium: ```npm install -g appium```
@@ -19,8 +21,8 @@ _**Note:** currently it supports only Android system run on emulator._
 * bundler: ```gem install bundler```
 
 ### Setup
-1. Go to the main directory
-2. Build gems dependencies ```bundle install```
+When in main directory _/wikipedia-mobile-tests_
+1. Build gems dependencies: ```bundle install```
 
 ### Running
 1. Start Appium server ```$> appium```
